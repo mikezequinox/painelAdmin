@@ -28,6 +28,7 @@ function gerarNumeros(quantidade, min, max)
     return numeros
 }
 
+const meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 const myChart = new Chart(graficoVendasMensais, {
     type: "bar",
     data: {
